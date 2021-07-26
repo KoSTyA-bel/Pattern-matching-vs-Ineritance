@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{E3062A32-106D-48CD-B279-22A3B8559AAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance", "Inheritance\Inheritance.csproj", "{E3062A32-106D-48CD-B279-22A3B8559AAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matching", "Matching\Matching.csproj", "{AAEA1D45-6AD8-4872-9A10-79DE536AC18C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matching", "Matching\Matching.csproj", "{AAEA1D45-6AD8-4872-9A10-79DE536AC18C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchingVSInheritanceTest", "MatchingVSInheritanceTest\MatchingVSInheritanceTest.csproj", "{100E86D3-1E39-4E7C-9D9F-C311C00A2F2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E3062A32-106D-48CD-B279-22A3B8559AAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,5 +43,23 @@ Global
 		{AAEA1D45-6AD8-4872-9A10-79DE536AC18C}.Release|x64.Build.0 = Release|Any CPU
 		{AAEA1D45-6AD8-4872-9A10-79DE536AC18C}.Release|x86.ActiveCfg = Release|Any CPU
 		{AAEA1D45-6AD8-4872-9A10-79DE536AC18C}.Release|x86.Build.0 = Release|Any CPU
+		{100E86D3-1E39-4E7C-9D9F-C311C00A2F2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{100E86D3-1E39-4E7C-9D9F-C311C00A2F2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{100E86D3-1E39-4E7C-9D9F-C311C00A2F2B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{100E86D3-1E39-4E7C-9D9F-C311C00A2F2B}.Debug|x64.Build.0 = Debug|Any CPU
+		{100E86D3-1E39-4E7C-9D9F-C311C00A2F2B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{100E86D3-1E39-4E7C-9D9F-C311C00A2F2B}.Debug|x86.Build.0 = Debug|Any CPU
+		{100E86D3-1E39-4E7C-9D9F-C311C00A2F2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{100E86D3-1E39-4E7C-9D9F-C311C00A2F2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{100E86D3-1E39-4E7C-9D9F-C311C00A2F2B}.Release|x64.ActiveCfg = Release|Any CPU
+		{100E86D3-1E39-4E7C-9D9F-C311C00A2F2B}.Release|x64.Build.0 = Release|Any CPU
+		{100E86D3-1E39-4E7C-9D9F-C311C00A2F2B}.Release|x86.ActiveCfg = Release|Any CPU
+		{100E86D3-1E39-4E7C-9D9F-C311C00A2F2B}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5E74FDA-0901-49A2-ADE9-00D1C2363764}
 	EndGlobalSection
 EndGlobal

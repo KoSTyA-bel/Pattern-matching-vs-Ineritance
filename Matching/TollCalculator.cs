@@ -2,7 +2,7 @@
 
 namespace Matching
 {
-    class TollCalculator
+    public class TollCalculator
     {
         public decimal CalculateToll(object vehicle) =>
             vehicle switch

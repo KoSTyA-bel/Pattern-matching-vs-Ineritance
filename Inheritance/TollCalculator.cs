@@ -9,6 +9,14 @@ namespace Inheritance
 {
     public class TollCalculator
     {
-        public decimal CalculateToll(IVehicle vehicle) => vehicle.CalculateToll();
+        public decimal CalculateToll(IVehicle vehicle)
+        {
+            if (vehicle is null)
+            {
+                throw new ArgumentNullException();
+            }
+
+            return vehicle.CalculateToll();
+        }
     }
 }
